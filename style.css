@@ -1,0 +1,162 @@
+*{
+    margin: auto;
+ 
+  }
+
+html{
+  scroll-behavior: smooth;
+}
+/*header*/
+ header{
+ margin-top: 50px;
+ }
+ header h1{
+   text-align: center;
+ }
+ header h3{
+   padding-left: 60px;
+ }
+ header h3:hover{
+   color: #8A0303;
+   text-decoration: underline;
+ }
+#about img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+box-shadow: rgba(139, 46, 46, 0.35) 0px 10px 36px 0px, rgba(145, 44, 44, 0.06) 0px 0px 0px 1px;
+}
+#about p::first-letter{
+  font-size: 200%;
+  color:#8A0303;
+  font-style: italic;
+}
+#about h3, h4{
+  text-align: center;
+}
+
+#about, #awards{
+    
+      line-height: 30px;
+      text-align: justify;
+}
+
+
+/*sidebar*/
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+background-color: rgba(246, 221, 221, 0.486);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+.sidebar li{
+    list-style: none;
+}
+
+
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: rgb(131, 56, 56);
+  color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+main.content {
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 1px 16px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/*   gallery  */
+#photo_gallery h2{
+  text-align: center;
+  padding-bottom: 20px;
+}
+div.gallery{
+  margin: 20px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 300px;
+
+}
+div.gallery a>img{
+  width: 300px;
+  height: 300px;
+}
+
+.photo_gallery:first-child{
+  text-align: center;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+ height: 150px;
+
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+#awards, #myFavorites{
+  padding:  60px 0;
+ 
+}
+
+#awards div>h2,h3{
+text-align: center;
+}
+#awards div>ul{
+  list-style: none;
+}
+
+/*gallery_2*/
+
+
+.gallery_2 {
+  height: 700px;
+}
+.gallery_2 h2 {
+  text-align: center;
+}
+/*footer*/
+
+footer{
+  
+    text-align: center;
+    padding-bottom: 60px;
+}
+footer p>a{
+  text-decoration: none;
+}
+
+footer p{
+    padding-top: 20px;
+}
+hr{
+      border: 1px solid rgb(196, 59, 59, 0.5);
+      width: 70%;
+      margin-bottom: 20px;
+}
